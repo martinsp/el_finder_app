@@ -53,4 +53,6 @@ ElFinderApp::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  match 'connector' => 'elfinder#connector', via: [:get, :post]
+  root 'elfinder#index'
 end

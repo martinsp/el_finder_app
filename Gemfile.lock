@@ -1,3 +1,9 @@
+PATH
+  remote: ~/Dev/Src/el_finder
+  specs:
+    el_finder (1.1.11)
+      image_size (>= 1.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -39,6 +45,7 @@ GEM
     execjs (2.0.2)
     hike (1.2.3)
     i18n (0.6.9)
+    image_size (1.1.5)
     jbuilder (1.5.3)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2.0)
@@ -100,6 +107,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  el_finder!
   jbuilder (~> 1.2)
   jquery-rails
   rails (= 4.0.2)
