@@ -16,3 +16,8 @@
 /tmp
 
 passenger.*
+
+public/system/elfinder1/*
+!public/system/elfinder1/.gitkeep
+public/system/elfinder2/*
+!public/system/elfinder2/.gitkeep

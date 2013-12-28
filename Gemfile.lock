@@ -1,5 +1,7 @@
-PATH
-  remote: ~/Dev/Src/el_finder
+GIT
+  remote: git://github.com/martinsp/el_finder.git
+  revision: b20a0c11c3e1ce28b47d299fc51e1c74b08a2c29
+  branch: api-v2
   specs:
     el_finder (1.1.11)
       image_size (>= 1.0.0)

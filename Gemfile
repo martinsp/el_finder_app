@@ -3,7 +3,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
-gem 'el_finder', path: '~/Dev/Src/el_finder'
+# gem 'el_finder', path: '~/Dev/Src/el_finder'
+gem 'el_finder', github: 'martinsp/el_finder', branch: 'api-v2'
 
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
